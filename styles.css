@@ -1,0 +1,135 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: #BAD9BC;
+    color: #384039;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 320;
+    font-style: normal;
+   
+}
+
+.sidenav {
+    /* Your sidebar styles */
+    /* Example: background-color, width, etc. */
+    height: 100%; /* 100% Full-height */
+    width: 260px; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+     left: 0;
+     background-color: #48594B;
+     overflow-x: hidden; /* Disable horizontal scroll */
+     padding-top: 20px; /* Place content 60px from the top */
+     padding-right: 75px;
+   
+}
+
+.sidenav a {
+    /* Sidebar link styles */
+    /* Example: color, padding, font-size, etc. */
+   padding: 120px 10px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #B4D9B6;
+   display: block;
+}
+
+.main{
+    margin-left: 250px;
+}
+.myHeader{
+text-align: center;
+font-size: 60px;
+
+}
+
+#home{
+padding: 50px;
+margin-top: 10px;
+}
+
+.myHeader a {
+   margin-left: 250px;
+    text-decoration: none;
+    color: #48594B;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 250px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  /*  margin-left: 250px;*/
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+#projects {
+    text-align: justify;
+    padding: 80px;
+    margin-left: 250px;
+}
+#contact{
+    text-align: justify;
+    padding: 80px;
+    margin-left: 250px;
+    
+}
+#About {
+    background-color: #C1D9C4;
+    font-size: 200%;
+    text-align:justify;
+    padding: 10px 50px;
+    margin-left: 250px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+   
+}
+.grid-item {
+    padding: 20px;
+    text-align: justify;
+    background-color: #C1D9C4;
+}
